@@ -58,7 +58,7 @@ wc = WordCloud(font_path=font_path, background_color="white", width=600, height=
 wc.generate(text)
 wc.to_file("result_lu.png")
 
-
+# 이미지 지정
 # mask = np.array(Image.open('think_cloud.png'))
 # wc = WordCloud(font_path=font_path, background_color="white", mask=mask)
 # wc.generate(text)
